@@ -1,0 +1,7 @@
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\bin\Release\Consolecsharp.exe.config
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\bin\Release\Consolecsharp.exe
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\bin\Release\Consolecsharp.pdb
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Release\Consolecsharp.csprojAssemblyReference.cache
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Release\Consolecsharp.csproj.CoreCompileInputs.cache
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Release\Consolecsharp.exe
+C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Release\Consolecsharp.pdb
