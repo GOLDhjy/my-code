@@ -5,3 +5,10 @@ C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Debug\Consolecsha
 C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.csproj.CoreCompileInputs.cache
 C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.exe
 C:\Users\kingsoft\source\repos\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.pdb
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\bin\Debug\Consolecsharp.exe.config
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\bin\Debug\Consolecsharp.exe
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\bin\Debug\Consolecsharp.pdb
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.csprojAssemblyReference.cache
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.csproj.CoreCompileInputs.cache
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.exe
+C:\Users\kingsoft\source\repos\my-code\Consolecsharp\Consolecsharp\obj\Debug\Consolecsharp.pdb

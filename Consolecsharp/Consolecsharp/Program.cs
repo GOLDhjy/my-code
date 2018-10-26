@@ -81,18 +81,24 @@ namespace Consolecsharp
             //    XmlSerializer Serializer = new XmlSerializer(typeof(log));
             //    Serializer.Serialize(file, MyLog);
             //}  
-            using (FileStream file = new FileStream(@"C:\Users\kingsoft\Desktop\Repo\result.xml", FileMode.OpenOrCreate, FileAccess.Read))
-            {
-                log MyLog;
-                XmlSerializer Serializer = new XmlSerializer(typeof(log));
-                MyLog = (log)Serializer.Deserialize(file);
-                foreach (logentry i in MyLog.Logentrie)
-                    Console.Write("\nRevision:" + i.Revision + "\n作者:" + i.author + "\n时间:" + i.date + "\n消息:" + i.msg + "\n路径:" + i.paths.path[0].value);
-                using (FileStream fileout = new FileStream(@"D:\Out.Xml", FileMode.Create, FileAccess.Write))
-                {
-                    Serializer.Serialize(fileout, MyLog);
-                }
-            }
+            log MyLog;
+            Task Tasks = new Task(() => FileOperateSystem.ReadXmlAsync(@"C: \Users\kingsoft\Desktop\Repo\result.xml", out MyLog));
+            Tasks.Start();
+            //log MyLog = Tasks.Result;
+
+            //using (FileStream file = new FileStream(@"C:\Users\kingsoft\Desktop\Repo\result.xml", FileMode.OpenOrCreate, FileAccess.Read))
+            //{
+            //    log MyLog;
+            //    XmlSerializer Serializer = new XmlSerializer(typeof(log));
+            //    MyLog = (log)Serializer.Deserialize(file);
+            //    foreach (logentry i in MyLog.Logentrie)
+            //        Console.Write("\nRevision:" + i.Revision + "\n作者:" + i.author + "\n时间:" + i.date + "\n消息:" + i.msg + "\n路径:" + i.paths.path[0].value);
+            //    using (FileStream fileout = new FileStream(@"D:\Out.Xml", FileMode.Create, FileAccess.Write))
+            //    {
+            //        Serializer.Serialize(fileout, MyLog);
+            //    }
+            //}
+            Tasks.Wait();
             Console.ReadKey();
         }
 
